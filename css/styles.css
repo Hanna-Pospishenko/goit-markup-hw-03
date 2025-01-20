@@ -331,7 +331,6 @@ button:focus {
     display: block;
     max-width: 100%;
     height: auto;
-    flex-basis: calc(100%-96px)/6;
     margin-right: 24px;
     text-align: center;
     width: calc((100% - 48px) / 3);
