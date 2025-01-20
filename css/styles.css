@@ -288,8 +288,7 @@ button:focus {
 
 /*portfolio*/
 .porfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .portfolio-title {
@@ -302,13 +301,22 @@ button:focus {
     margin-bottom: 72px;
 }
 
+.main-container {
+    padding: 32px 16px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e7e9fc;
+
+
+}
+
 .list-portfolio {
     display: flex;
-    gap: 24px;
     flex-wrap: wrap;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    row-gap: 48px;
 }
 
 .p-link:not(:last-child) {
