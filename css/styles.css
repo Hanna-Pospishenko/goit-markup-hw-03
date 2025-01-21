@@ -40,8 +40,6 @@ a {
 
 /*header*/
 .header {
-    background-color: #f8f9fa;
-    padding: 20px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -65,9 +63,13 @@ a {
 }
 
 .menu-link {
-    color: #000;
+    color: #2e2f42;
+    display: block;
     padding: 24px 0;
     font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .logo {
@@ -107,12 +109,10 @@ a {
 
 .contacts {
     font-style: normal;
-    margin-left: auto;
-    display: flex;
 }
 
 .contacts-link {
-
+    display: block;
     padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
@@ -153,7 +153,7 @@ a {
 .main-section {
     background-color: #2e2f42;
     width: 1440px;
-    height: 600px;
+    margin: 0 auto;
     padding: 188px 0;
 }
 
@@ -183,7 +183,7 @@ a {
     min-height: 56px;
     border-radius: 4px;
     padding: 10px 20px;
-    margin: 0 auto;
+    margin: 48px auto;
 }
 
 .button:hover,
@@ -230,9 +230,6 @@ button:focus {
     color: #434455;
 }
 
-.two-item:first-child {
-    flex-basis: calc(100% - 72px) / 4;
-}
 
 .two-list {
     display: flex;
@@ -261,10 +258,6 @@ button:focus {
     gap: 24px;
 }
 
-.team-link:first-child {
-    border-radius: 0 0 4px 4px;
-}
-
 .team-item {
     padding: 32px 0;
     text-align: center;
@@ -282,16 +275,12 @@ button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 0 x16px 32px;
 }
 
 .team-link {
     background-color: #ffffff;
     flex-basis: calc((100% - 72px) / 4);
-    display: block;
-    width: 100%;
-    height: auto;
-    display: block;
+    border-radius: 0 0 4px 4px;
 }
 
 /*portfolio*/
@@ -330,17 +319,9 @@ button:focus {
     margin-bottom: 48px;
 }
 
-.p-link:last-child {
-    margin-bottom: 0;
-}
 
 .p-link {
     flex-basis: calc((100% - 48px) / 3);
-    background: #fff;
-    max-width: 100%;
-
-    display: block;
-    height: auto;
 }
 
 .portfolio-container {
@@ -355,15 +336,17 @@ button:focus {
 
 /*footer*/
 .footer-logo {
-    color: #f4f4fd;
+    color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
 }
 
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+
 .page-footer {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 312px;
     padding: 100px 0;
 
 }
