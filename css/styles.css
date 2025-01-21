@@ -330,14 +330,19 @@ button:focus {
 
 .p-link {
     background-color: #FFFFFF;
-    width: calc((100% - 2 * 24px) / 3);
-}
-
-.porfolio-container {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: 24px;
+    text-align: center;
+    width: calc((100% - 48px) / 3);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+
+
+.porfolio-container {}
 
 .p-link:nth-child(3n) {
     margin-right: 0;
